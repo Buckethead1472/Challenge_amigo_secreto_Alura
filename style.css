@@ -160,3 +160,10 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+.banner-image {
+    max-width: 200px; /* ajusta el tamaño */
+    height: 200px; /* mantiene proporción */
+    margin-left: 20px; /* separa de tu título */
+    position: relative; /* permite moverla con top/left */
+    top: 10px; /* baja un poco la imagen */
+}
